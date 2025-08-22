@@ -73,23 +73,5 @@ yarn start
 
  The application will open at http://localhost:3000
 ---
-## 🏗️ Project Structure
-``src/
-├── components/             # React components
-│   ├── WeatherCard.tsx     # Weather information display
-│   ├── SearchForm.tsx      # City search functionality
-│   └── LoadingSpinner.tsx  # Loading indicator
-├── interfaces/             # TypeScript interface definitions
-│   └── Weather.ts          # Weather-related interfaces
-├── services/               # API and business logic
-│   ├── weatherService.ts   # OpenWeatherMap API integration
-│   └── mockWeatherService.ts # Mock data for testing
-├── hooks/                  # Custom React hooks
-│   └── useWeather.ts       # Weather data management hook
-├── App.tsx                 # Main application component
-├── App.css                 # Application styles
-└── index.tsx               # Application entry point``
 
-🔧 Key Learning Concepts
-TypeScript Interfaces Demonstrated
 
