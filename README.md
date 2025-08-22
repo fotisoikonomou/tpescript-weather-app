@@ -39,15 +39,15 @@ Before running this project, make sure you have:
 
 ## ⚡ Quick Start
 
-### 1. Clone the Repository
-```bash
+1. Clone the Repository
+bash
 git clone https://github.com/yourusername/weather-dashboard.git
 cd weather-dashboard
 
-### **2. Install Dependencies**
+**2. Install Dependencies**
 npm install
-# or
-yarn install
+or
+yarn install 
 
 ### **3. Get Your API Key**
 
@@ -67,14 +67,14 @@ REACT_APP_WEATHER_API_KEY=your_openweathermap_api_key_here
 
 **5. Start Development Server**
 npm start
-# or
+ or
 yarn start
 
 
-### The application will open at http://localhost:3000
-
-🏗️ Project Structure
-src/
+ The application will open at http://localhost:3000
+---
+## 🏗️ Project Structure
+``src/
 ├── components/             # React components
 │   ├── WeatherCard.tsx     # Weather information display
 │   ├── SearchForm.tsx      # City search functionality
@@ -88,7 +88,7 @@ src/
 │   └── useWeather.ts       # Weather data management hook
 ├── App.tsx                 # Main application component
 ├── App.css                 # Application styles
-└── index.tsx               # Application entry point
+└── index.tsx               # Application entry point``
 
 🔧 Key Learning Concepts
 TypeScript Interfaces Demonstrated
