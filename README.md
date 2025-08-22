@@ -40,7 +40,7 @@ Before running this project, make sure you have:
 ## ⚡ Quick Start
 
 ### 1. Clone the Repository
-```bash
+bash
 git clone https://github.com/yourusername/weather-dashboard.git
 cd weather-dashboard
 
@@ -71,7 +71,7 @@ npm start
 yarn start
 
 
-The application will open at http://localhost:3000
+### The application will open at http://localhost:3000
 
 🏗️ Project Structure
 src/
@@ -105,7 +105,7 @@ Union Types – Multiple possible types (string | null)
 
 Nested Interfaces – Complex data structures
 
-Example Interface Usage
+``` Example Interface Usage
 // Component props with function callbacks
 interface SearchFormProps {
   onSearch: (city: string) => void;
@@ -127,7 +127,7 @@ interface UseWeatherReturn {
   error: string | null;
   searchWeather: (city: string) => Promise<void>;
 }
-
+```
 🧪 Testing Without API Key
 
 For immediate testing and learning, the project includes a mock service:
