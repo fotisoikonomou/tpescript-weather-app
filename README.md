@@ -44,12 +44,12 @@ Before running this project, make sure you have:
 git clone https://github.com/yourusername/weather-dashboard.git
 cd weather-dashboard
 
-2. Install Dependencies
+### **2. Install Dependencies**
 npm install
 # or
 yarn install
 
-3. Get Your API Key
+### **3. Get Your API Key**
 
 Visit OpenWeatherMap
 
@@ -59,13 +59,13 @@ Navigate to API Keys section
 
 Copy your API key
 
-4. Environment Setup
+### **4. Environment Setup**
 
 Create a .env file in the root directory:
 
 REACT_APP_WEATHER_API_KEY=your_openweathermap_api_key_here
 
-5. Start Development Server
+### **5. Start Development Server**
 npm start
 # or
 yarn start
